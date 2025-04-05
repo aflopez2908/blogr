@@ -17,8 +17,8 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  <nav class="navbar bg-transparent  text-white">
+<body >
+  <nav class="navbar bg-transparent text-white position: absolute top-0 left-0 right-0 z-10">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -80,12 +80,27 @@
       </ul>
     </div>
     <div class="navbar-end">
-      <a class="btn text-black mx-1">Login</a>
-      <a class="btn text-black">Sign Up</a>
+      <a class="btn text-black mx-1 rounded-3xl bg-transparent hover:bg-red-600 text-white">Login</a>
+      <a class="btn text-black mx-1 rounded-3xl bg-transparent text-white hover:bg-red-600 ">Sign Up</a>
     </div>
   </nav>
 
-  
+  <section class="hero bg-orange-500  rounded-bl-[7rem] text-white bg-image bg-cover bg-center h-screen flex items-center justify-center" style="background-image: url('./images/bg-pattern-intro-desktop.svg');">
+    
+    <div class="hero-content flex flex-col items-center justify-center text-white text-center lg:flex-row-reverse text-center">
+      <div class="flex flex-col items-center justify-center  text-white text-center px-4">
+        <h1 class="text-5xl font-bold mb-4">A modern publishing platform</h1>
+        <p class="text-lg mb-6">Grow your audience and build your online brand</p>
+        <div class="flex flex-col items-center gap-4 sm:flex-row">
+          <button class="btn btn-primary bg-red-500  hover:bg-red-700 text-white px-6 py-2 rounded-sm">Start for Free</button>
+          <button class="btn btn-secondary bg-white hover:bg-gray-400 text-black px-6 py-2 rounded-sm">Learn More</button>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </section>
 
 
   Product
