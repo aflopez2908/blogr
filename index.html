@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
   <title>Frontend Mentor | [Blogr]</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
-<body >
+
+<body>
   <nav class="navbar bg-transparent text-white position: absolute top-0 left-0 right-0 z-10">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-          <svg xmlns="./images/logo.svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+          <svg xmlns="./images/logo.svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
         </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
           <li><a>Item 1</a></li>
           <li>
             <a> Product</a>
@@ -85,102 +94,119 @@
     </div>
   </nav>
 
-  <section class="hero bg-orange-500  rounded-bl-[5rem] text-white bg-image bg-cover bg-center h-screen flex items-center justify-center" style="background-image: url('./images/bg-pattern-intro-desktop.svg');">
-    
-    <div class="hero-content flex flex-col items-center justify-center text-white text-center lg:flex-row-reverse text-center">
+  <section
+    class="hero bg-orange-500  rounded-bl-[5rem] text-white bg-image bg-cover bg-center h-screen flex items-center justify-center"
+    style="background-image: url('./images/bg-pattern-intro-desktop.svg');">
+
+    <div
+      class="hero-content flex flex-col items-center justify-center text-white text-center lg:flex-row-reverse text-center">
       <div class="flex flex-col items-center justify-center  text-white text-center px-4">
         <h1 class="text-5xl font-bold mb-4">A modern publishing platform</h1>
         <p class="text-lg mb-6">Grow your audience and build your online brand</p>
         <div class="flex flex-col items-center gap-4 sm:flex-row">
-          <button class="btn btn-primary bg-red-500  hover:bg-red-700 text-white px-6 py-2 rounded-sm">Start for Free</button>
-          <button class="btn btn-secondary bg-white hover:bg-gray-400 text-black px-6 py-2 rounded-sm">Learn More</button>
+          <button class="btn btn-primary bg-red-500  hover:bg-red-700 text-white px-6 py-2 rounded-sm">Start for
+            Free</button>
+          <button class="btn btn-secondary bg-white hover:bg-gray-400 text-black px-6 py-2 rounded-sm">Learn
+            More</button>
         </div>
       </div>
-      
+
     </div>
-    
+
 
   </section>
 
 
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
 
 
-  <nav class="principalView bg-red-100">
+  <section class="designe flex flex-col lg:flex-row items-center justify-center px-6 py-12 gap-12 overflow-hidden mb-[5rem]">
+    <div class="cotenedor lg:w-1/2 flex flex-col justify-center pl-3 lg:pl-[8rem]  mr-[-13rem] ">
+      <h2 class="text-[3rem] font-bold text-right lg:mb-[8rem] text-right">Designed for the future</h2>
 
-    
-    
-  A modern publishing platform
-  Grow your audience and build your online brand
+      <div class="flex flex-col gap-10">
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2 mb-2">Introducing an extensible editor</h3>
+          <p class="text-gray-600">
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looks of a blog.
+          </p>
+        </div>
 
-  Start for Free
-  Learn More
-  </nav>
+        <div>
+          <h3 class="text-2xl font-semibold mb-2">Robust content management</h3>
+          <p class="text-gray-600">
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+      </div>
+    </div>
 
-  <section class="designe">
-
-    Designed for the future
-
-    Introducing an extensible editor
-    Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-    The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-    videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-    change the looks of a blog.
-  
-    Robust content management
-    Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-    by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-  
+    <div class="img inline-block w-auto box-content relative overflow-hidden translate-x-[20%] lg:w-1/2">
+      <img src="./images/illustration-editor-desktop.svg" alt="editor image" class="w-[150%] h-auto object-contain" />
+    </div>
 
   </section>
 
-  <section class="Infrastructure bg-green-100 m-2">
+
+
+  <section
+  class="Infrastructure relative bg-[#2E2F43] rounded-bl-[100px] rounded-tr-[100px] h-[40vh] overflow-visible"
+  style="background-image: url('./images/bg-pattern-circles.svg'); background-repeat: no-repeat; background-position: left bottom;"
+>
+
+  <!-- Imagen decorativa, flotando -->
+  <img
+    src="./images/illustration-phones.svg"
+    alt="phones"
+    class="absolute -top-20 left-15 w-[500px] h-auto z-10"
+  />
+
+  <!-- Texto ajustado con padding izquierdo para no chocar -->
+  <div class="relative z-20 flex flex-col justify-center text-white pl-[35rem] pr-[4rem] py-12 h-full">
+    <h2 class="text-[2.5rem] font-bold">State of the Art Infrastructure</h2>
+    <p class="text-lg leading-relaxed">
+      With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+      This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+    </p>
+  </div>
+</section>
+
+
+  <section class="Security flex my-[5rem]">
+
+    <div>
+      <img src="./images/illustration-laptop-desktop.svg" alt="desktop" class="ml-[-13rem] w-[5000px]" />
+    </div>
+
+    <div class="flex flex-col justify-center  px-6 py-12 gap-12 overflow-hidden mb-[5rem] max-w-[50%] mr-[7rem]">
+      
+      <div>
+        <h3 class="text-[2rem] font-bold ">Free, open, simple</h3>
+        <p class="text-lg">Blogr is a free and open source application backed by a large community of
+          helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media
+          integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is
+          clean and is relatively easy to learn.</p>
+      </div>
+  
+      <div>
+        <h3 class="text-[2rem] font-bold ">Powerful tooling</h3>
+        <p class="text-lg ">Batteries included. We built a simple and straightforward CLI tool that makes
+          customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+      </div>
+
+    </div>
+
     
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
 
-  </section>
-
-  <section class="Security bg-blue-100 m-2"> 
-
-    Free, open, simple
-    Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-    features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-    and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-  
-    Powerful tooling
-    Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-    capable of producing even the most complicated sites.
-  
   </section>
 
   <footer class="bg-black text-white grid grid-cols-4 gap-10 px-3 py-8 rounded-tr-[5rem] h-60">
-    
 
-    
+
+
 
     <div class="logo ml-15 mt-5">
       <img src="./images/logo.svg" alt="logo">
@@ -207,11 +233,11 @@
       <h4>Careers</h4>
 
     </div>
-    
- 
+
+
     <div class="connect">
 
-      
+
       <h3 class="font-bold text-xl">Connect</h3>
       <h4>Contact</h4>
       <h4>Newsletter</h4>
@@ -219,7 +245,8 @@
     </div>
 
   </footer>
-  
+
 
 </body>
+
 </html>
